@@ -5,7 +5,7 @@ import { useState } from "react";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="flex justify-between items-center font-palanquin ">
+    <nav className="flex justify-between items-center font-palanquin max-container padding-x  ">
       {/* Logo Here */}
       <div className="h-36 w-36 relative">
         <Image fill={true} src="/logo.svg" />
