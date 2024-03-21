@@ -1,7 +1,7 @@
 const Titles = () => {
   return (
     <section className="pt-32">
-      <div className="flex md:justify-between justify-between items-center max-md:justify-center">
+      <div className="flex md:justify-center gap-20 items-center max-md:justify-center">
         <div className="flex items-center justify-center gap-4">
           <p className="text-white text-4xl font-montserrat font-thin ">
             Business box
