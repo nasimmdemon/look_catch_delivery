@@ -10,13 +10,13 @@ const Hero = () => {
         </span>
       </p>
 
-      <div className="flex justify-center items-center mt-12 md:hidden">
+      <div className="flex justify-center items-center mt-24 md:hidden">
         <a href="#titles">
           <Image
             height={40}
             width={40}
             alt="Scroll Down"
-            src="/arrow_down.png"
+            src="/arrow_down.svg"
           />
         </a>
       </div>

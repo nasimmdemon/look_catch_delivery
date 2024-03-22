@@ -14,11 +14,11 @@ const Header = () => {
         </Link>
       </div>
       {/* Menu Here */}
-      <div className="text-white max-md:hidden ">
-        <Link className="px-4 text-lg cursor-pointer" href="/coming-soon">
+      <div className="text-white max-md:hidden text-left">
+        <Link className="px-4 text-3xl cursor-pointer" href="/coming-soon">
           Business Box
         </Link>
-        <Link className="px-4 text-lg cursor-pointer" href="/coming-soon">
+        <Link className="px-4 text-3xl cursor-pointer" href="/coming-soon">
           Become a driver
         </Link>
       </div>
