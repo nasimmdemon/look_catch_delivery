@@ -13,8 +13,9 @@ export default function Home() {
         <Details />
         <Footer />
       </div>
-      <footer className="text-white mt-10 bg-black w-full p-2">
-        <p className="padding-x">Copyright 2024 &copy; Look Catch Ltd</p>
+      <footer className="text-white mt-10 text-center">
+        <div className="border-t w-96 m-auto mb-3"></div>
+        <p className="padding-x pb-4">Copyright 2024 &copy; Look Catch Ltd</p>
       </footer>
     </>
   );

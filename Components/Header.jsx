@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 const Header = () => {
@@ -7,23 +8,25 @@ const Header = () => {
   return (
     <nav className="flex justify-between items-center font-palanquin max-container padding-x  ">
       {/* Logo Here */}
-      <div className="h-36 w-36 relative">
-        <Image fill={true} src="/logo.svg" />
+      <div className="h-36 w-36 relative cursor-pointer">
+        <Link href="/">
+          <Image fill={true} src="/logo.svg" />
+        </Link>
       </div>
       {/* Menu Here */}
-      <div className="text-white max-md:hidden">
-        <a className="px-4 text-lg" href="#">
+      <div className="text-white max-md:hidden ">
+        <Link className="px-4 text-lg cursor-pointer" href="/coming-soon">
           Business Box
-        </a>
-        <a className="px-4 text-lg" href="#">
-          Become a courier
-        </a>
+        </Link>
+        <Link className="px-4 text-lg cursor-pointer" href="/coming-soon">
+          Become a driver
+        </Link>
       </div>
       {/* Button Here */}
       <div>
         <a
           href="#"
-          className="bg-[#33425F] text-lg p-3 text-white font-bold rounded-lg max-md:hidden"
+          className="bg-[#33425F] text-lg p-3 text-white font-bold rounded-lg max-md:hidden cursor-pointer"
         >
           Coming Soon
         </a>
@@ -39,12 +42,20 @@ const Header = () => {
       {open && (
         <div className="bg-white p-5 absolute top-24 right-8 rounded-lg md:hidden">
           <nav className="flex flex-col gap-4">
-            <a className="px-4 text-lg" href="#">
+            <Link
+              onClick={() => setOpen(false)}
+              className="px-4 text-lg cursor-pointer"
+              href="/coming-soon"
+            >
               Business Box
-            </a>
-            <a className="px-4 text-lg" href="#">
-              Become a courier
-            </a>
+            </Link>
+            <Link
+              onClick={() => setOpen(false)}
+              className="px-4 text-lg cursor-pointer"
+              href="/coming-soon"
+            >
+              Become a driver
+            </Link>
           </nav>
         </div>
       )}
