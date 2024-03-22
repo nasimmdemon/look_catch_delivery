@@ -19,7 +19,7 @@ const Titles = () => {
         </p>
         <span className="text-white text-5xl font-montserrat font-extralight flex tracking-widest items-center">
           <div className="flex justify-center items-center">
-            box <div className="h-8 w-8 bg-white ml-2 mt-1"></div>
+            box <div className="h-8 w-8 bg-white ml-2 mt-2"></div>
           </div>
           <span className="text-xl border-l p-3 ml-6 tracking-normal">
             Coming Soon

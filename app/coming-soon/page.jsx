@@ -1,9 +1,9 @@
 const ComingSoon = () => {
   return (
     <>
-      <div className="pt-32 flex justify-start items-start mt-10 flex-row max-md:flex-col gap-12 max-container padding-x">
+      <div className="pt-12 flex justify-start items-start mt-10 flex-row max-md:flex-col gap-12 max-container padding-x">
         <div className="flex-2 ">
-          <p className="mr-4 font-poppins font-extralight text-6xl text-white  text-left max-md:border-r max-md:pr-5 max-md:mb-10">
+          <p className="mr-4 font-poppins font-extralight text-6xl text-white  text-left max-md:border-r max-md:pr-5 max-md:text-5xl h-32 max-md:mb-10">
             Becoming a <br />
             driver
           </p>
@@ -16,7 +16,7 @@ const ComingSoon = () => {
           </span>
         </div>
       </div>
-      <footer className="text-white mt-20 text-center">
+      <footer className="text-white mt-36 text-center">
         <div className="border-t-[0.5px] border-[#C7C5C5] w-96 m-auto max-md:w-56"></div>
         <p className="padding-x pb-4 font-thin">
           Copyright 2024 &copy; Look Catch Ltd
