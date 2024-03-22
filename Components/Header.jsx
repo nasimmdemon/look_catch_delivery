@@ -15,7 +15,7 @@ const Header = () => {
       </div>
       {/* Menu Here */}
       <div className="text-white max-md:hidden text-left">
-        <Link className="px-4 text-3xl cursor-pointer" href="/coming-soon">
+        <Link className="px-4 text-3xl cursor-pointer" href="/#titles">
           Business Box
         </Link>
         <Link className="px-4 text-3xl cursor-pointer" href="/coming-soon">
@@ -24,12 +24,6 @@ const Header = () => {
       </div>
       {/* Button Here */}
       <div>
-        <a
-          href="#"
-          className="bg-[#33425F] text-lg p-3 text-white font-bold rounded-lg max-md:hidden cursor-pointer"
-        >
-          Coming Soon
-        </a>
         <Image
           height={30}
           width={30}
@@ -45,7 +39,7 @@ const Header = () => {
             <Link
               onClick={() => setOpen(false)}
               className="px-4 text-lg cursor-pointer"
-              href="/coming-soon"
+              href="/#titles"
             >
               Business Box
             </Link>
