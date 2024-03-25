@@ -56,16 +56,12 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 
-  .bg-hero {
-    background-image: url("/assets/images/hero.png");
+  .bg_section {
+    background-image: url("/../public/Section_5_bg.png");
+    background-position: center;
+    background-size: cover;
   }
-  .bg-slider1 {
-    background-image: url("/assets/images/banner1.png");
-  }
-  .bg-slider2 {
-    background-image: url("/assets/images/banner2.png");
-  }
-  .bg-slider3 {
-    background-image: url("/assets/images/banner3.png");
+  .bg_section_md {
+    background-image: url("/public/Section_5_bg_phone.png");
   }
 }
