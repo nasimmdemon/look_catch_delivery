@@ -6,7 +6,7 @@ import image_4 from "@/public/s54.png";
 
 export default function Section5() {
   return (
-    <section className="bg-[#9747FF] pt-16 pb-32 padding-x">
+    <section className="bg-[#9747FF] pt-16 pb-32 mt-12 padding-x">
       <div className="flex justify-between">
         <div>
           <Image src={image_1} />
