@@ -8,7 +8,7 @@ const Titles = () => {
         <p className="text-white text-3xl font-montserrat font-extralight mr-3 tracking-[0.3em]">
           Business box
         </p>
-        <div className="h-8 w-8 bg-white m-2 mt-3 mr-8"></div>
+        <div className="h-8 w-8 border-[0.5px] rounded-lg m-2 mt-3 mr-8"></div>
       </div>
       <span className="text-xl p-3 ml-0 tracking-widest max-md:hidden text-white font-extralight">
         Coming Soon
@@ -19,7 +19,8 @@ const Titles = () => {
         </p>
         <span className="text-white text-5xl font-montserrat font-extralight flex tracking-widest items-center">
           <div className="flex justify-center items-center">
-            box <div className="h-8 w-8 bg-white ml-2 mt-2"></div>
+            box{" "}
+            <div className="h-8 w-8 border-[0.5px] rounded-lg ml-2 mt-2"></div>
           </div>
           <span className="text-xl border-l p-3 ml-6 tracking-normal">
             Coming Soon
