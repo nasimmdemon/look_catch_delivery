@@ -55,7 +55,7 @@ export default function Section5() {
       </div>
       <div className="max-container lg:hidden flex-col flex pt-12">
         <div className=" relative flex justify-center">
-          <div className="h-[120px] w-[0.5px] rotate-[-30deg] absolute left-12 top-[-50px] text–center bg-white"></div>
+          <div className="h-[90px] w-[0.5px] rotate-[-30deg] absolute left-4 top-[-94px] text–center bg-white"></div>
         </div>
         <div className=" relative right-[-150px] max-md:right-[-130px] max-sm:right-[-80px]">
           <Image
