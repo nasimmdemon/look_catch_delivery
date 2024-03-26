@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroSliderImage from "/public/hero_slider_main.svg";
+import HeroSliderImage from "/public/hello.png";
 
 const Details = () => {
   return (
@@ -13,12 +13,12 @@ const Details = () => {
             simple
           </p>
         </div>
-        <div className="flex-1 max-md:h-[300px] max-md:w-[300px] max-md:ml-auto">
+        <div className="flex-1  max-md:h-[300px] max-md:w-[300px] max-md:ml-auto">
           <Image
-            unoptimized={true}
             quality={100}
             src={HeroSliderImage}
-            objectFit="cover"
+            alt="Hero Image"
+            objectFit="contain"
           />
         </div>
       </div>
