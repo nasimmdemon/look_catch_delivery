@@ -22,7 +22,7 @@ const Titles = () => {
             box{" "}
             <div className="h-8 w-8 border-[0.5px] rounded-lg ml-2 mt-2"></div>
           </div>
-          <span className="text-xl border-l p-3 ml-6 tracking-normal">
+          <span className="text-xl border-l p-3 ml-6 font-extralight tracking-normal">
             Coming Soon
           </span>
         </span>
