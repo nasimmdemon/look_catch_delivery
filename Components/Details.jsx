@@ -14,7 +14,12 @@ const Details = () => {
           </p>
         </div>
         <div className="flex-1 max-md:h-[300px] max-md:w-[300px] max-md:ml-auto">
-          <Image quality={100} src={HeroSliderImage} objectFit="cover" />
+          <Image
+            unoptimized={true}
+            quality={100}
+            src={HeroSliderImage}
+            objectFit="cover"
+          />
         </div>
       </div>
     </>
