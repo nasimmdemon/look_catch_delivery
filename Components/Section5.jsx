@@ -1,8 +1,8 @@
 import Image from "next/image";
-import image_1 from "@/public/slide1.svg";
-import image_2 from "@/public/slide2.svg";
-import image_3 from "@/public/slide3.svg";
-import image_4 from "@/public/slide4.svg";
+import image_1 from "@/public/slide1.png";
+import image_2 from "@/public/slide2.png";
+import image_3 from "@/public/slide3.png";
+import image_4 from "@/public/slide4.png";
 import shape1 from "@/public/Line_top.svg";
 
 export default function Section5() {
