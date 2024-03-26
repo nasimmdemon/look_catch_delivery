@@ -14,18 +14,38 @@ export default function Section5() {
         </div>
         <div className="flex justify-between relative">
           <div className="">
-            <Image src={image_1} width={500} objectFit="contain" />
+            <Image
+              quality={100}
+              src={image_1}
+              width={500}
+              objectFit="contain"
+            />
           </div>
           <div className="mt-12 pl-3">
-            <Image src={image_2} width={600} objectFit="contain" />
+            <Image
+              quality={100}
+              src={image_2}
+              width={600}
+              objectFit="contain"
+            />
           </div>
         </div>
         <div className="flex justify-between">
           <div>
-            <Image src={image_3} width={650} objectFit="contain" />
+            <Image
+              quality={100}
+              src={image_3}
+              width={650}
+              objectFit="contain"
+            />
           </div>
           <div className="mt-44 pl-3">
-            <Image src={image_4} width={500} objectFit="contain" />
+            <Image
+              quality={100}
+              src={image_4}
+              width={500}
+              objectFit="contain"
+            />
           </div>
         </div>
       </div>
@@ -34,16 +54,16 @@ export default function Section5() {
           <div className="h-[120px] w-[0.5px] rotate-[-30deg] absolute left-12 top-[-50px] text–center bg-white"></div>
         </div>
         <div className="mt-32 relative right-[-150px] max-md:right-[-130px] max-sm:right-[-80px]">
-          <Image src={image_1} width={800} objectFit="contain" />
+          <Image quality={100} src={image_1} width={800} objectFit="contain" />
         </div>
         <div className="mt-48 max-md:mt-32 max-sm:mt-12 relative left-[-150px] max-md:left-[-130px] max-sm:left-[-80px]">
-          <Image src={image_2} width={800} objectFit="contain" />
+          <Image quality={100} src={image_2} width={800} objectFit="contain" />
         </div>
         <div className="mt-48 max-md:mt-32 max-sm:mt-12 relative right-[-150px] max-md:right-[-130px] max-sm:right-[-80px]">
-          <Image src={image_3} width={750} objectFit="contain" />
+          <Image quality={100} src={image_3} width={750} objectFit="contain" />
         </div>
         <div className="mt-48 max-md:mt-32 max-sm:mt-12 relative left-[-150px] max-md:left-[-130px] max-sm:left-[-80px]">
-          <Image src={image_4} width={800} objectFit="contain" />
+          <Image quality={100} src={image_4} width={800} objectFit="contain" />
         </div>
       </div>
     </section>

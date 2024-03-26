@@ -2,7 +2,7 @@ const ComingSoon = () => {
   return (
     <>
       <div className="bg-[#68758A]">
-        <div className="pt-12 flex justify-start items-start mt-10 flex-row max-md:flex-col gap-12 max-container padding-x">
+        <div className="flex pt-12 justify-start items-start flex-row max-md:flex-col gap-12 max-container padding-x">
           <div className="flex-2 ">
             <p className="mr-4 font-poppins font-extralight text-5xl text-white  text-left max-md:border-r max-md:pr-5 max-md:text-4xl h-32 max-md:mb-10">
               Becoming a <br />
