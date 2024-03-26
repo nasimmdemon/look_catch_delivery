@@ -3,7 +3,6 @@ import image_1 from "@/public/slide1.png";
 import image_2 from "@/public/slide2.png";
 import image_3 from "@/public/slide3.png";
 import image_4 from "@/public/slide4.png";
-import shape1 from "@/public/Line_top.svg";
 
 export default function Section5() {
   return (
@@ -50,11 +49,11 @@ export default function Section5() {
           </div>
         </div>
       </div>
-      <div className="max-container lg:hidden flex-col flex pt-24">
+      <div className="max-container lg:hidden flex-col flex pt-12">
         <div className=" relative flex justify-center">
           <div className="h-[120px] w-[0.5px] rotate-[-30deg] absolute left-12 top-[-50px] text–center bg-white"></div>
         </div>
-        <div className="mt-32 relative right-[-150px] max-md:right-[-130px] max-sm:right-[-80px]">
+        <div className=" relative right-[-150px] max-md:right-[-130px] max-sm:right-[-80px]">
           <Image
             unoptimized={true}
             quality={100}
