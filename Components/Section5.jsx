@@ -3,6 +3,10 @@ import image_1 from "@/public/slide1.png";
 import image_2 from "@/public/slide2.png";
 import image_3 from "@/public/slide3.png";
 import image_4 from "@/public/slide4.png";
+import mobile_1 from "@/public/mobile_slide_1.png";
+import mobile_2 from "@/public/mobile_slide_2.png";
+import mobile_3 from "@/public/mobile_slide_3.png";
+import mobile_4 from "@/public/mobile_slide_4.png";
 
 export default function Section5() {
   return (
@@ -57,7 +61,7 @@ export default function Section5() {
           <Image
             unoptimized={true}
             quality={100}
-            src={image_1}
+            src={mobile_1}
             width={800}
             objectFit="contain"
           />
@@ -66,7 +70,7 @@ export default function Section5() {
           <Image
             unoptimized={true}
             quality={100}
-            src={image_2}
+            src={mobile_2}
             width={800}
             objectFit="contain"
           />
@@ -75,7 +79,7 @@ export default function Section5() {
           <Image
             unoptimized={true}
             quality={100}
-            src={image_3}
+            src={mobile_3}
             width={750}
             objectFit="contain"
           />
@@ -84,7 +88,7 @@ export default function Section5() {
           <Image
             unoptimized={true}
             quality={100}
-            src={image_4}
+            src={mobile_4}
             width={800}
             objectFit="contain"
           />
