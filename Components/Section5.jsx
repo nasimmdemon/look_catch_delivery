@@ -55,16 +55,19 @@ export default function Section5() {
       </div>
       <div className="max-container lg:hidden flex-col flex pt-12">
         <div className=" relative flex justify-center">
-          <div className="h-[90px] w-[0.5px] rotate-[-30deg] absolute left-4 top-[-94px] text–center bg-white"></div>
+          <div className="h-[90px] w-[1px] rotate-[-30deg] absolute left-4 top-[-94px] text–center bg-white"></div>
         </div>
         <div className=" relative right-[-150px] max-md:right-[-130px] max-sm:right-[-80px]">
           <Image
             unoptimized={true}
             quality={100}
             src={mobile_1}
-            width={800}
+            width={380}
             objectFit="contain"
           />
+          <div className=" relative flex justify-center">
+            <div className="h-[120px] w-[1px]  absolute left-72 top-[34px] text–center bg-white"></div>
+          </div>
         </div>
         <div className="mt-48 max-md:mt-32 max-sm:mt-12 relative left-[-150px] max-md:left-[-130px] max-sm:left-[-80px]">
           <Image
@@ -74,22 +77,26 @@ export default function Section5() {
             width={800}
             objectFit="contain"
           />
+          <div className=" relative flex justify-center">
+            <div className="h-[120px] w-[1px]  absolute left-16 top-[34px] text–center bg-white"></div>
+          </div>
         </div>
-        <div className="mt-48 max-md:mt-32 max-sm:mt-12 relative right-[-150px] max-md:right-[-130px] max-sm:right-[-80px]">
+        <div className="mt-48 max-md:mt-32 max-sm:mt-12 relative right-[-150px] max-md:right-[-130px] max-sm:right-[-20px] w-[480px]">
           <Image
             unoptimized={true}
             quality={100}
             src={mobile_3}
-            width={750}
             objectFit="contain"
           />
+          <div className=" relative flex justify-center">
+            <div className="h-[130px] w-[1px] rotate-[-50deg] absolute left-[9px] top-[-94px] text–center bg-white"></div>
+          </div>
         </div>
-        <div className="mt-48 max-md:mt-32 max-sm:mt-12 relative left-[-150px] max-md:left-[-130px] max-sm:left-[-80px]">
+        <div className="mt-48 max-md:mt-32 max-sm:mt-12 relative left-[-150px] max-md:left-[-130px] max-sm:left-[-160px] w-[600px]">
           <Image
             unoptimized={true}
             quality={100}
             src={mobile_4}
-            width={800}
             objectFit="contain"
           />
         </div>
